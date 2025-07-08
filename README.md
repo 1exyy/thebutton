@@ -6,7 +6,7 @@
 
 ## 🚀 Демо
 
-👉 [Ссылка на игру](https://your-domain.com)
+👉 [Ссылка на игру](https://thebutton-two.vercel.app/intro)
 
 ## 🕹 Уровни
 
@@ -41,6 +41,5 @@
 
 ```bash
 git clone https://github.com/1exyy/thebutton
-cd thebutton
 npm install
 npm run dev
