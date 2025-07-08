@@ -1,0 +1,24 @@
+.container {
+    position: fixed;
+    left: 32px;
+    bottom: 32px;
+}
+
+.message {
+    background-color: gray;
+    padding: 12px;
+    position: absolute;
+    left: 70px;
+    top: -50px;
+    width: 300px;
+    animation: showMessage .3s both;
+}
+
+@keyframes showMessage {
+    from {
+        width: 50px;
+    }
+    to {
+        width: 300px;
+    }
+}

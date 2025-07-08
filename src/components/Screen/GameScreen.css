@@ -1,0 +1,58 @@
+.game_screen {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.hover_button button:hover {
+    opacity: 1 !important;
+}
+
+.level_info {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    user-select: none;
+    display: grid;
+    text-align: center;
+    opacity: .3;
+
+}
+
+.level_info strong {
+    font-size: 240px;
+    line-height: 100%;
+    letter-spacing: 30px;
+}
+
+.level_info span {
+    color: var(--text-secondary);
+    font-size: 80px;
+}
+
+.menu-button {
+    border-radius: 2px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    width: 25px;
+    padding: 0;
+}
+
+.menu-button span{
+    background: white;
+    display: block;
+    height: 4px;
+    width: 100%;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,60 @@
+.win-screen {
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 24px;
+    text-align: center;
+    padding: 24px;
+}
+
+.win-title {
+    font-size: 48px
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+}
+
+.rank {
+    grid-area: auto / span 2;
+}
+
+.stat-block {
+    background: #ffffff11;
+    border: 1px solid var(--border-color);
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.stat-block .label {
+    color: var(--text-secondary);
+    display: block;
+}
+
+.stat-block .value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.rank .value {
+    font-size: 1.7rem;
+}
+
+
+@media (max-width: 600px) {
+    .stats {
+        width: 100%;
+    }
+
+    .stat-block {
+        width: 100%;
+    }
+}

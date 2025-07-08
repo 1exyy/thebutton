@@ -1,0 +1,40 @@
+.levels_container {
+    --cell-size: 128px;
+    gap: 32px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(5, var(--cell-size));
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.level {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: var(--button-color);
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    border-radius: 4px;
+}
+
+.lock {
+    position: absolute;
+    background: rgba(112, 112, 112, 0.57);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level:not(.level_locked):hover {
+    box-shadow: var(--button-shadow);
+}

@@ -1,0 +1,23 @@
+
+* {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--text-color);
+    background: var(--bg-color);
+    margin: 0;
+    overflow-x: hidden;
+}
