@@ -6,7 +6,7 @@
 
 ## 🚀 Демо
 
-👉 [Ссылка на игру](https://thebutton-two.vercel.app/intro)
+👉 [Ссылка на игру](https://thebutton-two.vercel.app)
 
 ## 🕹 Уровни
 
